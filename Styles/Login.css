@@ -1,10 +1,108 @@
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
 @media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-  .container {
-    padding: 10px;
-  }
+    #Box {
+        position: absolute;
+        left: 29%;
+        background-color: 255, 255, 255, 0.3;
+        height: 54%;
+        width: 46%;
+        top: 17%;
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgb(0, 0, 0);
+        transition: 0.8s ease;
+    }
+
+    #Logbutton {
+        position: absolute;
+        left: 30.8%;
+        top: 52%;
+        background: linear-gradient(to right, #9caee2, #b9c5ec);
+        height: 4.5%;
+        width: 42.4%;
+        text-align: center;
+        display: grid;
+        place-items: center;
+        border-radius: 19px;
+        transition: 0.5s ease;
+        caret-color: transparent;
+        font-size: 120%;
+        font-family: "Zilla Slab", serif;
+        cursor: pointer;
+        border: 1px solid rgb(73, 76, 136);
+    }
+
+    #nickname {
+        position: absolute;
+        height: 4.5%;
+        width: 42.4%;
+        left: 30.8%;
+        top: 35%;
+        border-radius: 19px;
+        text-align: center;
+        font-size: 105%;
+        font-family: "Zilla Slab", serif;   
+    }
+
+    #password {
+        position: absolute;
+        height: 4.5%;
+        width: 42.4%;
+        left: 30.8%;
+        top: 41%;
+        border-radius: 19px;
+        text-align: center;
+        font-size: 105%;
+        font-family: "Zilla Slab", serif;
+    }
+
+    #reg {
+        left: 51%;
+        top: 58%;
+    }
+
+    #Forgot {
+        left: 33%;
+        top: 58%;
+    }
+
+}
+
+@media (max-width: 640px) {
+    #Box {
+        position: absolute;
+        left: 26%;
+        background-color: 255, 255, 255, 0.3;
+        height: 45%;
+        width: 52.5%;
+        top: 20%;
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgb(0, 0, 0);
+        transition: 0.8s ease;
+    }
+
+    #Text {
+        left: 44%;
+    }
+
+    #Forgot {
+        left:43%;
+    }
+
+    #reg {
+        left: 39%;
+        top: 61%;
+    }
 }
 
 * {
@@ -124,3 +222,4 @@ body {
     opacity: 0.5;
 
 }
+
