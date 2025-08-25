@@ -1,17 +1,10 @@
-@media (max-width: 1400px) {
-
-}
-
-@media (max-width: 1200px) {
-
-}
-
 @media (max-width: 768px) {
-
-}
-
-@media (max-width: 640px) {
-
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
 }
 
 * {
@@ -129,4 +122,5 @@ body {
 
 #Forgot:hover {
     opacity: 0.5;
+
 }
