@@ -1,0 +1,185 @@
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/19798.jpg);
+    background-size: cover;
+}
+
+#Box {
+    position: absolute;
+    left: 37%;
+    background-color: 255, 255, 255, 0.3;
+    height: 79%;
+    width: 23.3%;
+    top: 10%;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgb(0, 0, 0);
+    transition: 0.8s ease;
+}
+
+#Box:hover {
+    backdrop-filter: blur(5px);
+}
+
+#Regbutton {
+    position: absolute;
+    left: 37.8%;
+    top: 73%;
+    background: linear-gradient(to right, #9caee2, #b9c5ec);
+    height: 5.5%;
+    width: 21.4%;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    border-radius: 19px;
+    transition: 0.5s ease;
+    caret-color: transparent;
+    font-size: 120%;
+    font-family: "Zilla Slab", serif;
+    cursor: pointer;
+    border: 1px solid rgb(73, 76, 136); 
+}
+
+#Regbutton:hover {
+    opacity: 0.7;
+}
+
+#nickname {
+    position: absolute;
+    height: 4.5%;
+    width: 21.4%;
+    left: 37.8%;
+    top: 26%;
+    border-radius: 19px;
+    text-align: center;
+    font-size: 105%;
+    font-family: "Zilla Slab", serif;
+}
+
+#password {
+    position: absolute;
+    height: 4.5%;
+    width: 21.4%;
+    left: 37.8%;
+    top: 37%;
+    border-radius: 19px;
+    text-align: center;
+    font-size: 105%;
+    font-family: "Zilla Slab", serif;
+}
+
+#Text {
+    position: absolute;
+    left: 45%;
+    top: 13%;
+    font-size: 250%;
+    color: azure;
+    height: 1%;
+    font-family: "Playfair Display", serif;
+    cursor: default;
+}
+
+#repeatepassword {
+    position: absolute;
+    height: 4.5%;
+    width: 21.4%;
+    left: 37.8%;
+    top: 48%;
+    border-radius: 19px;
+    text-align: center;
+    font-size: 105%;
+    font-family: "Zilla Slab", serif;
+}
+
+#nicknametop {
+    position: absolute;
+    left: 39%;
+    top: 23%;
+    color: white;
+    font-family: "Playfair Display", serif;
+    cursor: default;
+    height: 1%;
+    width: 1%;
+}
+
+#passwordtop {
+    position: absolute;
+    left: 39%;
+    top: 34%;
+    color: white;
+    font-family: "Playfair Display", serif;
+    cursor: default;
+    height: 1%;
+    width: 1%;
+}
+
+#repeatepasswordtop {
+    position: absolute;
+    left: 39%;
+    top: 45%;
+    color: white;
+    font-family: "Playfair Display", serif;
+    cursor: default;
+    height: 1%;
+    width: auto;
+}
+
+#email {
+    position: absolute;
+    height: 4.5%;
+    width: 21.4%;
+    left: 37.8%;
+    top: 59%;
+    border-radius: 19px;
+    text-align: center;
+    font-size: 105%;
+    font-family: "Zilla Slab", serif;
+}
+
+#emailtop {
+    position: absolute;
+    left: 39%;
+    top: 56%;
+    color: white;
+    font-family: "Playfair Display", serif;
+    cursor: default;
+    height: 1%;
+    width: auto;
+}
+
+#Send {
+    position: absolute;
+    left: 43.7%;
+    top: 67%;
+    height: 1%;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#Send:hover {
+    opacity: 0.5;
+}
