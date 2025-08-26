@@ -116,7 +116,7 @@ body {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 375px) {
     #Box {
         left: 14%;
         width: 71.3%;
@@ -150,5 +150,6 @@ body {
         left: 17.8%;
     }
 }
+
 
 
